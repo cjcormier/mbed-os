@@ -62,7 +62,8 @@ struct analogin_s {
 
 struct dac_s {
     DACName dac;
-    uint8_t channel;
+    PinName pin;
+    uint32_t channel;
     DAC_HandleTypeDef handle;
 };
 
@@ -141,6 +142,13 @@ struct can_s {
     CAN_HandleTypeDef CanHandle;
     int index;
     int hz;
+};
+#endif
+
+#if DEVICE_FLASH
+struct flash_s {
+    /*  nothing to be stored for now */
+    uint32_t dummy;
 };
 #endif
 

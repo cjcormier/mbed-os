@@ -189,6 +189,11 @@ class Sw4STM32(GNUARMEclipse):
             'name': 'NUCLEO-F411RE',
             'mcuId': 'STM32F411RETx'
         },
+        'NUCLEO_F413ZH':
+        {
+            'name': 'NUCLEO-F413ZH',
+            'mcuId': 'STM32F413ZHTx'
+        },
         'NUCLEO_F429ZI':
         {
             'name': 'NUCLEO-F429ZI',
@@ -253,6 +258,16 @@ class Sw4STM32(GNUARMEclipse):
         {
             'name': 'NUCLEO-L486RG',
             'mcuId': 'STM32L486RGTx'
+        },
+        'NUCLEO_L496ZG':
+        {
+            'name': 'NUCLEO-L496ZG',
+            'mcuId': 'STM32L496ZGTx'
+        },        
+        'NUCLEO_L496ZG_P':
+        {
+            'name': 'NUCLEO-L496ZG',
+            'mcuId': 'STM32L496ZGTx'
         },
     }
 
